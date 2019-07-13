@@ -63,5 +63,11 @@ public class NumberGameTest {
         Assertions.assertEquals(numberGame.numberOf(35), "BuzzWhizz");
     }
 
+    @Test
+    public void should_return_FizzBuzzWhizz_when_call_numberOf_105 () {
+        NumberGame numberGame = new NumberGame();
+        Assertions.assertEquals(numberGame.numberOf(105), "FizzBuzzWhizz");
+    }
+
 
 }
