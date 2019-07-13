@@ -46,9 +46,16 @@ public class NumberGameTest {
     }
 
     @Test
-    public void should_return_FizzBuzz_when_call_number_15 () {
+    public void should_return_FizzBuzz_when_call_numberOf_15 () {
         NumberGame numberGame = new NumberGame();
         Assertions.assertEquals(numberGame.numberOf(15), "FizzBuzz");
     }
+
+    @Test
+    public void should_return_FizzWhizz_when_call_numberOf_21 () {
+        NumberGame numberGame = new NumberGame();
+        Assertions.assertEquals(numberGame.numberOf(21), "FizzWhizz");
+    }
+
 
 }
