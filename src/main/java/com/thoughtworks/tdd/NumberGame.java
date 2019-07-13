@@ -1,4 +1,7 @@
 package com.thoughtworks.tdd;
 
-public class number {
+public class NumberGame {
+    public int numberOf(int i) {
+        return i;
+    }
 }
