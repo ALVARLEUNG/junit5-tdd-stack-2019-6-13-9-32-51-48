@@ -18,14 +18,13 @@ public class NumberGameTest {
     @Test
     public void should_return_2_when_call_number_given_2 () {
         NumberGame numberGame = new NumberGame();
-        Assertions.assertSame("2", numberGame.numberOf(2));
+        Assertions.assertEquals("2", numberGame.numberOf(2));
     }
-//
-//    @Ignore
-//    @Test
-//    public void should_return_Fizz_when_call_number_given_3 () {
-//        NumberGame numberGame = new NumberGame();
-//        Assertions.assertSame(numberGame.numberOf(3), "Fizz");
-//    }
+
+    @Test
+    public void should_return_Fizz_when_call_number_given_3 () {
+        NumberGame numberGame = new NumberGame();
+        Assertions.assertEquals(numberGame.numberOf(3), "Fizz");
+    }
 
 }
