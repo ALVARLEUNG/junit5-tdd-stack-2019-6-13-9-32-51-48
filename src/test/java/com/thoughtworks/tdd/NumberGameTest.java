@@ -39,4 +39,10 @@ public class NumberGameTest {
         Assertions.assertEquals(numberGame.numberOf(5), "Buzz");
     }
 
+    @Test
+    public void should_return_Whizz_when_call_number_given_7 () {
+        NumberGame numberGame = new NumberGame();
+        Assertions.assertEquals(numberGame.numberOf(7), "Whizz");
+    }
+
 }
