@@ -22,27 +22,28 @@ public class NumberGameTest {
     }
 
     @Test
-    public void should_return_Fizz_when_call_number_given_3 () {
+    public void should_return_Fizz_when_call_numberOf_given_3 () {
         NumberGame numberGame = new NumberGame();
         Assertions.assertEquals(numberGame.numberOf(3), "Fizz");
     }
 
     @Test
-    public void should_return_Fizz_when_call_number_given_6 () {
+    public void should_return_Fizz_when_call_numberOf_given_6 () {
         NumberGame numberGame = new NumberGame();
         Assertions.assertEquals(numberGame.numberOf(6), "Fizz");
     }
 
     @Test
-    public void should_return_Buzz_when_call_number_given_5 () {
+    public void should_return_Buzz_when_call_numberOf_given_5 () {
         NumberGame numberGame = new NumberGame();
         Assertions.assertEquals(numberGame.numberOf(5), "Buzz");
     }
 
     @Test
-    public void should_return_Whizz_when_call_number_given_7 () {
+    public void should_return_Whizz_when_call_numberOf_given_7 () {
         NumberGame numberGame = new NumberGame();
         Assertions.assertEquals(numberGame.numberOf(7), "Whizz");
     }
+    
 
 }
