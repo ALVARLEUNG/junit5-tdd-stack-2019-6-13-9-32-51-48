@@ -19,4 +19,11 @@ public class NumberGame {
 
         return String.valueOf(i);
     }
+
+     public static void main(String[] args) {
+         NumberGame numberGame = new NumberGame();
+        for (int i = 1; i<=20; i++) {
+            System.out.println(numberGame.numberOf(i));
+        }
+    }
 }
