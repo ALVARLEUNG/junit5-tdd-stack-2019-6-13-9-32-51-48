@@ -22,8 +22,9 @@ public class NumberGame {
 
      public static void main(String[] args) {
          NumberGame numberGame = new NumberGame();
-        for (int i = 1; i<=20; i++) {
-            System.out.println(numberGame.numberOf(i));
-        }
+         for( int i = 0; i < 120; i++) {
+             String result = numberGame.numberOf(i+1);
+             System.out.println(result);
+         }
     }
 }
